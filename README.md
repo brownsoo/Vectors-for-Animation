@@ -16,6 +16,8 @@ brownsoo 2022
 
 ### [사이트로 이동하기 >>](https://brownsoo.github.io/2DVectors/)
 
+<script src="./js/processing-v1_6_6.js"></script>
+<canvas data-processing-sources="./data/ball_vs_arc.pde"></canvas>
 
 <br>
 
