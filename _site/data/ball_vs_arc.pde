@@ -38,7 +38,7 @@ Point cp;//position of ball at collision
 SimpleButton resetBt;
 
 void setup() {
-  size(320, 400);
+  size(400, 400);
   // Pulling the display's density dynamically
   try {
     pixelDensity(displayDensity());
@@ -46,14 +46,14 @@ void setup() {
   
   //create object
   ball = new Ball(_BLUE, 40);
-  ball.p0 = new Point(50, 50);
+  ball.p0 = new Point(100, 100);
   ball.p1 = new Point(250, 250);
   updateVector(ball, true);
   
   ballA = new Ball(_BLUE&0x23FFFFFF, 40);
   
   arcObj = new Arc(_RED, 50);
-  arcObj.p0 = new Point(190, 170);
+  arcObj.p0 = new Point(200, 200);
   arcObj.angle1 = 135 * PI / 180;
   arcObj.angle2 = 315 * PI / 180;
   findArc(arcObj);
